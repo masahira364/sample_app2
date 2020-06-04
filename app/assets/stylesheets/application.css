@@ -19,7 +19,7 @@
 	box-sizing: border-box;
 }
 
-header, h1, nav ,.list-comment{
+header, h1, nav ,.list-comment ,.show-title{
 	font-family: 'Kaushan Script', cursive, sans-serif;
 }
 .clearfix::after {
@@ -84,4 +84,19 @@ main{
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+}
+.show-box{
+	width: 880px;
+	text-align: center;
+	margin: 20px auto;
+}
+.show-title {
+	font-size: 32px;
+	margin: 20px 0;
+}
+.show-text{
+	font-size: 20px;
+}
+.new {
+	text-align: center;
 }
